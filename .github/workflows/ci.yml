@@ -1,4 +1,4 @@
-name: PetStore CI
+name: AnimalFarm CI
 
 on:
   push:
@@ -33,9 +33,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Test (Debug)
-        run: xcodebuild clean test -configuration Debug -scheme "PetStore" -sdk "iphonesimulator" -destination "platform=iOS Simulator,name=iPhone 14 Pro"
+        run: xcodebuild clean test -configuration Debug -scheme "AnimalFarm" -sdk "iphonesimulator" -destination "platform=iOS Simulator,name=iPhone 14 Pro"
       #- name: Test (Release)
-        #run: xcodebuild clean test -configuration Release -scheme "PetStore" -sdk "iphonesimulator" -destination "platform=iOS Simulator,name=iPhone 14 Pro"
+        #run: xcodebuild clean test -configuration Release -scheme "AnimalFarm" -sdk "iphonesimulator" -destination "platform=iOS Simulator,name=iPhone 14 Pro"
 
   tvos:
     if: false
@@ -43,9 +43,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Test (Debug)
-        run: xcodebuild clean test -configuration Debug -scheme "PetStore" -sdk "appletvsimulator" -destination "platform=tvOS Simulator,name=Apple TV" 
+        run: xcodebuild clean test -configuration Debug -scheme "AnimalFarm" -sdk "appletvsimulator" -destination "platform=tvOS Simulator,name=Apple TV" 
       #- name: Test (Release)
-        #run: xcodebuild clean test -configuration Release -scheme "PetStore" -sdk "appletvsimulator" -destination "platform=tvOS Simulator,name=Apple TV" 
+        #run: xcodebuild clean test -configuration Release -scheme "AnimalFarm" -sdk "appletvsimulator" -destination "platform=tvOS Simulator,name=Apple TV" 
 
   macos:
     runs-on: macos-12
@@ -74,10 +74,10 @@ jobs:
           cat Package.swift
 
           swift package --allow-writing-to-directory docs \
-            generate-documentation --target PetStore \
+            generate-documentation --target AnimalFarm \
             --disable-indexing \
             --transform-for-static-hosting \
-            --hosting-base-path PetStore \
+            --hosting-base-path AnimalFarm \
             --output-path docs
 
       - name: Deploy
