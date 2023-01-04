@@ -5,12 +5,12 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>app.Magic-Loupe.PetStore</string>
+	<string>app.Magic-Loupe.AnimalFarm</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2.0</string>
+	<string>0.0.1</string>
 </dict>
 </plist>
