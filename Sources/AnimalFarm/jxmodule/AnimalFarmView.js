@@ -1,6 +1,6 @@
 require(jxswiftui).import();
 
-exports.PetListView = class extends View {
+exports.AnimalListView = class extends View {
     constructor(model) {
         super();
         this.observed.model = model;
@@ -9,7 +9,7 @@ exports.PetListView = class extends View {
     body() {
         const model = this.observed.model;
         return VStack([
-            Button("New Pet", () => { withAnimation(() => model.addPet()) }),
+            Button("New Animal", () => { withAnimation(() => model.addPet()) }),
             List([
                 ForEach(model.pets, (pet) => {
                     return pet.id;
@@ -22,7 +22,7 @@ exports.PetListView = class extends View {
                 })
             ])
         ])
-        .navigationTitle('Pet Store')
+        .navigationTitle('Animal Farm')
     }
 }
 
@@ -59,7 +59,7 @@ class PetDetailView extends View {
                 Text("$" + this.pet.price)
                     .font(Font.title.monospaced().bold())
                     .foregroundColor(Color.blue)
-                    .background(Color.yellow)
+                    .background(Color.purple)
             ]),
             Section('Pet info', [
                 Text('Slider value: ' + this.state.sliderValue),

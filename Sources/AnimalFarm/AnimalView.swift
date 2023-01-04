@@ -2,10 +2,10 @@ import JXBridge
 import JXSwiftUI
 import SwiftUI
 
-struct PetView: View {
+struct AnimalView: View {
     @State private var isPriceHidden = true
     
-    let pet: Pet
+    let pet: Animal
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -28,8 +28,8 @@ struct PetView: View {
     }
 }
 
-extension PetView: JXStaticBridging {
+extension AnimalView: JXStaticBridging {
     static func jxBridge() throws -> JXBridge {
-        JXBridgeBuilder(type: self).asJXSwiftUIView().constructor { PetView.init }.bridge
+        JXBridgeBuilder(type: self).asJXSwiftUIView().constructor { AnimalView.init }.bridge
     }
 }

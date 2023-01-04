@@ -1,11 +1,11 @@
 import XCTest
-@testable import PetStore
+@testable import AnimalFarm
 
-final class PetStoreTests: XCTestCase {
-    func testPetStore() throws {
-        let _ = PetStoreModule()
+final class AnimalFarmTests: XCTestCase {
+    func testAnimalFarm() throws {
+        let _ = AnimalFarmModule()
         // make sure the localURL is correctly able to load a resource
-        let js = try Data(contentsOf: XCTUnwrap(PetStoreModule.localURL).appendingPathComponent("PetStoreView.js"))
+        let js = try Data(contentsOf: XCTUnwrap(AnimalFarmModule.localURL).appendingPathComponent("AnimalFarmView.js"))
         XCTAssertNotEqual(0, js.count)
     }
 }
