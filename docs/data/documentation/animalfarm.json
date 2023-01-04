@@ -34,21 +34,16 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreView"
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmModule",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmView"
       ],
       "title" : "Structures"
     },
     {
       "identifiers" : [
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreBundle",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreBundleIdentifier",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreInfo",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersion",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionMajor",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionMinor",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionNumber",
-        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionPatch"
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmBundle",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmBundleIdentifier",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmInfo"
       ],
       "title" : "Variables"
     }
@@ -78,14 +73,14 @@
   "type" : "topic",
   "url" : "\/documentation\/animalfarm"
 },
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreBundle": {
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmBundle": {
   "abstract" : [
     {
       "text" : "The bundle for the ",
       "type" : "text"
     },
     {
-      "code" : "PetStore",
+      "code" : "AnimalFarm",
       "type" : "codeVoice"
     },
     {
@@ -104,7 +99,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "PetStoreBundle"
+      "text" : "AnimalFarmBundle"
     },
     {
       "kind" : "text",
@@ -116,21 +111,21 @@
       "text" : "Bundle"
     }
   ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreBundle",
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmBundle",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "PetStoreBundle",
+  "title" : "AnimalFarmBundle",
   "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstorebundle"
+  "url" : "\/documentation\/animalfarm\/animalfarmbundle"
 },
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreBundleIdentifier": {
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmBundleIdentifier": {
   "abstract" : [
     {
       "text" : "The bundle identifier of the ",
       "type" : "text"
     },
     {
-      "code" : "PetStore",
+      "code" : "AnimalFarm",
       "type" : "codeVoice"
     },
     {
@@ -146,7 +141,7 @@
       "type" : "text"
     },
     {
-      "code" : "PetStoreInfo",
+      "code" : "AnimalFarmInfo",
       "type" : "codeVoice"
     },
     {
@@ -165,7 +160,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "PetStoreBundleIdentifier"
+      "text" : "AnimalFarmBundleIdentifier"
     },
     {
       "kind" : "text",
@@ -181,21 +176,21 @@
       "text" : "!"
     }
   ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreBundleIdentifier",
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmBundleIdentifier",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "PetStoreBundleIdentifier",
+  "title" : "AnimalFarmBundleIdentifier",
   "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstorebundleidentifier"
+  "url" : "\/documentation\/animalfarm\/animalfarmbundleidentifier"
 },
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreInfo": {
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmInfo": {
   "abstract" : [
     {
       "text" : "The info dictionary for the ",
       "type" : "text"
     },
     {
-      "code" : "PetStore",
+      "code" : "AnimalFarm",
       "type" : "codeVoice"
     },
     {
@@ -214,7 +209,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "PetStoreInfo"
+      "text" : "AnimalFarmInfo"
     },
     {
       "kind" : "text",
@@ -230,14 +225,14 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreInfo",
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmInfo",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "PetStoreInfo",
+  "title" : "AnimalFarmInfo",
   "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreinfo"
+  "url" : "\/documentation\/animalfarm\/animalfarminfo"
 },
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule": {
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmModule": {
   "abstract" : [
 
   ],
@@ -252,293 +247,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "PetStoreModule"
+      "text" : "AnimalFarmModule"
     }
   ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule",
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmModule",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "PetStoreModule"
+      "text" : "AnimalFarmModule"
     }
   ],
   "role" : "symbol",
-  "title" : "PetStoreModule",
+  "title" : "AnimalFarmModule",
   "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoremodule"
+  "url" : "\/documentation\/animalfarm\/animalfarmmodule"
 },
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreVersion": {
-  "abstract" : [
-    {
-      "text" : "The version of the ",
-      "type" : "text"
-    },
-    {
-      "code" : "PetStore",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " module as specified by the ",
-      "type" : "text"
-    },
-    {
-      "code" : "CFBundleShortVersionString",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " of the ",
-      "type" : "text"
-    },
-    {
-      "code" : "PetStoreInfo",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "PetStoreVersion"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : "!"
-    }
-  ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersion",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "PetStoreVersion",
-  "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreversion"
-},
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreVersionMajor": {
-  "abstract" : [
-    {
-      "text" : "The major, minor, and patch version components of the ",
-      "type" : "text"
-    },
-    {
-      "code" : "PetStore",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " module’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "CFBundleShortVersionString",
-      "type" : "codeVoice"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "PetStoreVersionMajor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
-    }
-  ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionMajor",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "PetStoreVersionMajor",
-  "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreversionmajor"
-},
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreVersionMinor": {
-  "abstract" : [
-    {
-      "text" : "The major, minor, and patch version components of the ",
-      "type" : "text"
-    },
-    {
-      "code" : "PetStore",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " module’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "CFBundleShortVersionString",
-      "type" : "codeVoice"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "PetStoreVersionMinor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
-    }
-  ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionMinor",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "PetStoreVersionMinor",
-  "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreversionminor"
-},
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreVersionNumber": {
-  "abstract" : [
-    {
-      "text" : "A comparable representation of ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersion",
-      "isActive" : true,
-      "type" : "reference"
-    },
-    {
-      "text" : ", which can be used for comparing known versions and sorting via semver semantics.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "PetStoreVersionNumber"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    }
-  ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionNumber",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "PetStoreVersionNumber",
-  "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreversionnumber"
-},
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreVersionPatch": {
-  "abstract" : [
-    {
-      "text" : "The major, minor, and patch version components of the ",
-      "type" : "text"
-    },
-    {
-      "code" : "PetStore",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " module’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "CFBundleShortVersionString",
-      "type" : "codeVoice"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "let"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "PetStoreVersionPatch"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Si",
-      "text" : "Int"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
-    }
-  ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreVersionPatch",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "PetStoreVersionPatch",
-  "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreversionpatch"
-},
-"doc://AnimalFarm/documentation/AnimalFarm/PetStoreView": {
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmView": {
   "abstract" : [
 
   ],
@@ -553,21 +278,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "PetStoreView"
+      "text" : "AnimalFarmView"
     }
   ],
-  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreView",
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmView",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "PetStoreView"
+      "text" : "AnimalFarmView"
     }
   ],
   "role" : "symbol",
-  "title" : "PetStoreView",
+  "title" : "AnimalFarmView",
   "type" : "topic",
-  "url" : "\/documentation\/animalfarm\/petstoreview"
+  "url" : "\/documentation\/animalfarm\/animalfarmview"
 }
 }
 }

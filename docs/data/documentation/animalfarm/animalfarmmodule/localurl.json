@@ -1,0 +1,232 @@
+{
+  "abstract" : [
+    {
+      "text" : "The localURL is where local script and resources are stored",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmModule"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmModule\/localURL"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10AnimalFarm0aB6ModuleV8localURL10Foundation0E0VSgvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "localURL"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AnimalFarm"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "localURL"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "localURL"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation3URLV",
+              "text" : "URL"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/animalfarm\/animalfarmmodule\/localurl"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AnimalFarm/documentation/AnimalFarm": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AnimalFarm",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmModule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AnimalFarmModule"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmModule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AnimalFarmModule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AnimalFarmModule",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/animalfarmmodule"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/AnimalFarmModule/localURL": {
+  "abstract" : [
+    {
+      "text" : "The localURL is where local script and resources are stored",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/AnimalFarmModule\/localURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localURL",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/animalfarmmodule\/localurl"
+}
+}
+}

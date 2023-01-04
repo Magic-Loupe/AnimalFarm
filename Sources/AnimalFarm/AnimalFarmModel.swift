@@ -1,16 +1,16 @@
 import Combine
 import JXBridge
 
-class PetStoreModel: ObservableObject, JXBridging {
-    @JXPublished var pets: [Pet] = []
+class AnimalFarmModel: ObservableObject, JXBridging {
+    @JXPublished var pets: [Animal] = []
     
     func load() {
-        pets = [Pet.random(), Pet.random(), Pet.random(), Pet.random()]
+        pets = [Animal.random(), Animal.random(), Animal.random(), Animal.random()]
     }
     
     @JXFunc var jxaddPet = addPet
     func addPet() {
-        pets.append(Pet.random())
+        pets.append(Animal.random())
     }
     
     @JXFunc var jxsellPet = sellPet

@@ -1,7 +1,7 @@
 import Foundation
 import JXBridge
 
-class Pet: JXBridging {
+class Animal: JXBridging {
     @JX var id: String
     @JX var animal: String
     @JX var price: Double
@@ -14,14 +14,14 @@ class Pet: JXBridging {
         self.price = price
     }
     
-    static func random() -> Pet {
+    static func random() -> Animal {
         let id = UUID().uuidString
         let animal = animals.randomElement()!
         let price = Double(Int.random(in: 10...100)) - 0.01
-        return Pet(id: id, animal: animal, price: price)
+        return Animal(id: id, animal: animal, price: price)
     }
     
     private static let animals = [
-        "Cat", "Dog", "Ferret", "Fish", "Guinea Pig", "Hampster", "Hedgehog", "Hermit Crab", "Lizard", "Mouse", "Parrot", "Rabbit", "Rat", "Scorpion", "Snake", "Tarantula"
+        "Cow", "Llama", "Kangaroo", "Dinosaur"
     ]
 }
