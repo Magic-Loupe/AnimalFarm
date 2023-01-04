@@ -35,7 +35,7 @@ class PetRow extends View {
 
     body() {
         return HStack([
-            new petstore.PetView(this.pet),
+            new animalfarm.AnimalView(this.pet),
             Spacer(),
             Text('Sell')
                 .onTapGesture(() => {
