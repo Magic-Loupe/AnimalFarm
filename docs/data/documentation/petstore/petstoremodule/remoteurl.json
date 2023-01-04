@@ -1,0 +1,232 @@
+{
+  "abstract" : [
+    {
+      "text" : "The remoteURL gives the location of the URL resources relative to an archive that is derived from the relative URL (which will vary depending on the service provider)",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PetStore\/documentation\/PetStore",
+        "doc:\/\/PetStore\/documentation\/PetStore\/PetStoreModule"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PetStore\/documentation\/PetStore\/PetStoreModule\/remoteURL"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8PetStore0aB6ModuleV9remoteURL10Foundation0E0VSgvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "remoteURL"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PetStore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "remoteURL"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "remoteURL"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation3URLV",
+              "text" : "URL"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/petstore\/petstoremodule\/remoteurl"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PetStore/documentation/PetStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PetStore\/documentation\/PetStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PetStore",
+  "type" : "topic",
+  "url" : "\/documentation\/petstore"
+},
+"doc://PetStore/documentation/PetStore/PetStoreModule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreModule"
+    }
+  ],
+  "identifier" : "doc:\/\/PetStore\/documentation\/PetStore\/PetStoreModule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreModule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PetStoreModule",
+  "type" : "topic",
+  "url" : "\/documentation\/petstore\/petstoremodule"
+},
+"doc://PetStore/documentation/PetStore/PetStoreModule/remoteURL": {
+  "abstract" : [
+    {
+      "text" : "The remoteURL gives the location of the URL resources relative to an archive that is derived from the relative URL (which will vary depending on the service provider)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remoteURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/PetStore\/documentation\/PetStore\/PetStoreModule\/remoteURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remoteURL",
+  "type" : "topic",
+  "url" : "\/documentation\/petstore\/petstoremodule\/remoteurl"
+}
+}
+}

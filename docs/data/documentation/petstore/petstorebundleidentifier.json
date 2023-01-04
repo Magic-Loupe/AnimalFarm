@@ -1,0 +1,224 @@
+{
+  "abstract" : [
+    {
+      "text" : "The bundle identifier of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "PetStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module as specified by the ",
+      "type" : "text"
+    },
+    {
+      "code" : "CFBundleIdentifier",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "PetStoreInfo",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PetStore\/documentation\/PetStore"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PetStore\/documentation\/PetStore\/PetStoreBundleIdentifier"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:8PetStore0aB16BundleIdentifierSSSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "PetStoreBundleIdentifier"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "!"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PetStore"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Global Variable",
+    "symbolKind" : "var",
+    "title" : "PetStoreBundleIdentifier"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "PetStoreBundleIdentifier"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "!"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/petstore\/petstorebundleidentifier"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PetStore/documentation/PetStore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PetStore\/documentation\/PetStore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PetStore",
+  "type" : "topic",
+  "url" : "\/documentation\/petstore"
+},
+"doc://PetStore/documentation/PetStore/PetStoreBundleIdentifier": {
+  "abstract" : [
+    {
+      "text" : "The bundle identifier of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "PetStore",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module as specified by the ",
+      "type" : "text"
+    },
+    {
+      "code" : "CFBundleIdentifier",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "PetStoreInfo",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreBundleIdentifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "!"
+    }
+  ],
+  "identifier" : "doc:\/\/PetStore\/documentation\/PetStore\/PetStoreBundleIdentifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PetStoreBundleIdentifier",
+  "type" : "topic",
+  "url" : "\/documentation\/petstore\/petstorebundleidentifier"
+}
+}
+}

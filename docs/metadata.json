@@ -1,0 +1,9 @@
+{
+  "bundleDisplayName" : "PetStore",
+  "bundleIdentifier" : "PetStore",
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}
