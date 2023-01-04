@@ -9,7 +9,6 @@ exports.AnimalListView = class extends View {
     body() {
         const model = this.observed.model;
         return VStack([
-            Button("New Animal", () => { withAnimation(() => model.addPet()) }),
             List([
                 ForEach(model.pets, (pet) => {
                     return pet.id;
@@ -20,9 +19,9 @@ exports.AnimalListView = class extends View {
                         withAnimation(() => model.sellPet(pet.id));
                     }))
                 })
-            ])
+            ]),
+            Button("New Animal", () => { withAnimation(() => model.addPet()) }),
         ])
-        .navigationTitle('Animal Farm')
     }
 }
 
@@ -61,11 +60,11 @@ class PetDetailView extends View {
                     .foregroundColor(Color.blue)
                     .background(Color.purple)
             ]),
-            Section('Pet info', [
+            Section('Animal info', [
                 Text('Slider value: ' + this.state.sliderValue),
                 Slider(this.state.$sliderValue)
             ])
         ])
-        .navigationTitle('Pet')
+        .navigationTitle('Animal')
     }
 }
