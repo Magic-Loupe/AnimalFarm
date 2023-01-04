@@ -2513,25 +2513,6 @@
             "path" : "\/documentation\/animalfarm\/animalfarmview",
             "title" : "AnimalFarmView",
             "type" : "struct"
-          },
-          {
-            "title" : "Variables",
-            "type" : "groupMarker"
-          },
-          {
-            "path" : "\/documentation\/animalfarm\/animalfarmbundle",
-            "title" : "let AnimalFarmBundle: Bundle",
-            "type" : "var"
-          },
-          {
-            "path" : "\/documentation\/animalfarm\/animalfarmbundleidentifier",
-            "title" : "let AnimalFarmBundleIdentifier: String!",
-            "type" : "var"
-          },
-          {
-            "path" : "\/documentation\/animalfarm\/animalfarminfo",
-            "title" : "let AnimalFarmInfo: NSDictionary?",
-            "type" : "var"
           }
         ],
         "path" : "\/documentation\/animalfarm",
