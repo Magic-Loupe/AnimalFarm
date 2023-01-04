@@ -1,0 +1,232 @@
+{
+  "abstract" : [
+    {
+      "text" : "The remoteURL gives the location of the URL resources relative to an archive that is derived from the relative URL (which will vary depending on the service provider)",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/remoteURL"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10AnimalFarm14PetStoreModuleV9remoteURL10Foundation0G0VSgvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "remoteURL"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation3URLV",
+        "text" : "URL"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AnimalFarm"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "remoteURL"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "remoteURL"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation3URLV",
+              "text" : "URL"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/animalfarm\/petstoremodule\/remoteurl"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AnimalFarm/documentation/AnimalFarm": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AnimalFarm",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreModule"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreModule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PetStoreModule",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule/remoteURL": {
+  "abstract" : [
+    {
+      "text" : "The remoteURL gives the location of the URL resources relative to an archive that is derived from the relative URL (which will vary depending on the service provider)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remoteURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/remoteURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remoteURL",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule\/remoteurl"
+}
+}
+}

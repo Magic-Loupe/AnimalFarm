@@ -1,0 +1,199 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreView\/init(context:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10AnimalFarm12PetStoreViewV7contextAC5JXKit9JXContextC_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "context"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5JXKit9JXContextC",
+        "text" : "JXContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AnimalFarm"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(context:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "context"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5JXKit9JXContextC",
+              "text" : "JXContext"
+            },
+            {
+              "kind" : "text",
+              "text" : " = JXContext())"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/animalfarm\/petstoreview\/init(context:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AnimalFarm/documentation/AnimalFarm": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AnimalFarm",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreView"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PetStoreView",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoreview"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreView/init(context:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "context"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreView\/init(context:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(context:)",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoreview\/init(context:)"
+}
+}
+}

@@ -1,0 +1,376 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10AnimalFarm14PetStoreModuleV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "PetStoreModule"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AnimalFarm"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "PetStoreModule"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "PetStoreModule"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "PetStoreModule"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AnimalFarm\/8JXBridge8JXModuleP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/namespace"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/register(with:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/localURL",
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/remoteURL"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/JXModule-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/animalfarm\/petstoremodule"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AnimalFarm/8JXBridge8JXModuleP": {
+  "identifier" : "doc:\/\/AnimalFarm\/8JXBridge8JXModuleP",
+  "title" : "JXBridge.JXModule",
+  "type" : "unresolvable"
+},
+"doc://AnimalFarm/documentation/AnimalFarm": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AnimalFarm",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreModule"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PetStoreModule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PetStoreModule",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule/JXModule-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/JXModule-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXModule Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule\/jxmodule-implementations"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule/localURL": {
+  "abstract" : [
+    {
+      "text" : "The localURL is where local script and resources are stored",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/localURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localURL",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule\/localurl"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule/namespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/namespace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namespace",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule\/namespace"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule/register(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "register"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
+      "text" : "JXRegistry"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/register(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "register(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule\/register(with:)"
+},
+"doc://AnimalFarm/documentation/AnimalFarm/PetStoreModule/remoteURL": {
+  "abstract" : [
+    {
+      "text" : "The remoteURL gives the location of the URL resources relative to an archive that is derived from the relative URL (which will vary depending on the service provider)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "remoteURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AnimalFarm\/documentation\/AnimalFarm\/PetStoreModule\/remoteURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "remoteURL",
+  "type" : "topic",
+  "url" : "\/documentation\/animalfarm\/petstoremodule\/remoteurl"
+}
+}
+}

@@ -1,6 +1,6 @@
 {
-  "bundleDisplayName" : "PetStore",
-  "bundleIdentifier" : "PetStore",
+  "bundleDisplayName" : "AnimalFarm",
+  "bundleIdentifier" : "AnimalFarm",
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
