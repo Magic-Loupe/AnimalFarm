@@ -4,6 +4,7 @@ import SwiftUI
 
 public struct AnimalFarmView: View {
     let context: JXContext
+    @Environment(\.dismiss) private var dismiss
     @StateObject private var model: AnimalFarmModel = {
         let model = AnimalFarmModel()
         model.load()
@@ -20,8 +21,17 @@ public struct AnimalFarmView: View {
     }
     
     public var body: some View {
-        JXView(context: context) { context in
-            return try context.new("animalfarm.AnimalListView", withArguments: [model])
+        NavigationView {
+            JXView(context: context) { context in
+                return try context.new("animalfarm.AnimalListView", withArguments: [model])
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: { dismiss() }) {
+                        Image(systemName: "xmark.circle.fill")
+                    }
+                }
+            }
         }
     }
 }
